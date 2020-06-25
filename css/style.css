@@ -1,0 +1,166 @@
+
+body {
+    font-family: 'Rubik', sans-serif;
+    min-width: 1150px;
+    margin: 0;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+    height: 75px;
+    padding: 0 150px;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo {
+    
+}
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+}
+.nav__links {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.nav__buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    align-items: center;
+}
+
+.nav__sig-in-button {
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav__sign-up-button {
+    font-weight: 500;
+    color: #F53855;
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 13px 45px;
+}
+.about {
+    padding-top: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.about__block1 {
+    
+}
+.block1 {
+    display: flex;
+    justify-content: center;
+}
+.block1__text {
+    color: #0b132a;
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+}
+.about__title-text {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.about__subtitle-text {
+    color: #4F5665;
+    font-weight: 400;
+    
+}
+.about__button {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #F53838;
+    border-radius: 10px;
+    padding: 17.5px 77.5px;
+    margin-top: 50px;
+    max-width: 250px;
+}
+.block1__picture img {
+    /* width: 150%; */
+}
+.block1__picture{
+}
+.about__block2 {
+    margin-top: 103px;
+}
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 200px;
+    align-items: center;
+    box-shadow: 0 50px 42px -5px #F4F4F5;
+}
+
+.block2__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.block2__picture {
+}
+.block2__text {
+    margin: auto 1;
+    padding-left: 37px;
+}
+.block2__title-text {
+    font-size: 25px;
+    font-weight: 700;
+    color: #0B132A;
+    margin: 0;
+}
+.block2__subtitle-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4F5665;
+    margin: 0;
+}
+.about__block3 {
+    padding-top: 95px;
+}
+.block3 {
+    display: flex;
+}
+.block3__picture {
+}
+.block3__text {
+    display: flex;
+    flex-direction: column;
+}
+.block3__title {
+}
+.block3__subtitle {
+}
+.block3__list {
+}
