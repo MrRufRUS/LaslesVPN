@@ -28,15 +28,25 @@ nav{
     padding: 0 150px;
 }
 
+nav {
+    margin-top: 45px;
+}
+
 .nav {
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 75px;
 }
+
+.nav__logo {
+    padding-right: 157px;
+}
+
 .nav__list {
     display: flex;
     justify-content: space-around;
     width: 450px;
+    margin-right: 150px;
 }
 .nav__links {
     font-size: 16px;
@@ -65,7 +75,7 @@ nav{
     padding: 13px 45px;
 }
 .about {
-    padding-top: 60px;
+    padding-top: 90px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -96,7 +106,7 @@ nav{
 }
 .about__button {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     color: white;
     background-color: #F53838;
     border-radius: 10px;
@@ -119,6 +129,7 @@ nav{
     height: 200px;
     align-items: center;
     box-shadow: 0 50px 42px -5px #F4F4F5;
+    padding: 0;
 }
 
 .block2__item {
@@ -177,6 +188,7 @@ nav{
     line-height: 30px;
     color: #4F5665;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .block3__list {
     font-weight: normal;
@@ -259,6 +271,7 @@ nav{
     line-height: 30px;
     color: #4F5665;
     font-weight: 400;
+    padding-top: 30px;
 
 }
 
@@ -325,6 +338,11 @@ nav{
     color: #0B132A;
     max-width: 390px;
 }
+
+.map__services > img {
+    padding-right: 65px;
+}
+
 .map__subtitle {
     font-weight: 400;
     font-size: 16px;
@@ -354,9 +372,10 @@ footer {
 }
 .footer__down{
     display: flex;
+    justify-content: center;
     padding-top: 180px;
-    justify-content: space-around;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
 }
 .footer__subscribe {
     position: absolute;
@@ -421,6 +440,7 @@ footer {
     flex-direction: column;
     width: 360px;
     align-items: flex-start;
+    margin-right: 230px;
 }
 .footer__undertext {
     font-style: normal;
