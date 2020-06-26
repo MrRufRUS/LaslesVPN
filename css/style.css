@@ -264,6 +264,7 @@ nav {
     line-height: 30px;
     text-align: center;
     color: #0B132A;
+    padding-top: 30px;
 }
 .price-plan__options {
     padding-left: 0;
@@ -272,7 +273,6 @@ nav {
     color: #4F5665;
     font-weight: 400;
     padding-top: 30px;
-
 }
 
 .price-plan__list li {
